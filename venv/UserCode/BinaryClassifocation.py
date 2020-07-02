@@ -127,6 +127,7 @@ def plot_curve(epochs, hist, list_of_metrics):
     plt.plot(epochs[1:], x[1:], label=m)
 
   plt.legend()
+  plt.show()
 
 print("Defined the plot_curve function.")
 

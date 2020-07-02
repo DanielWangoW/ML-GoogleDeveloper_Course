@@ -85,8 +85,7 @@ def plot_the_loss_curve(epochs,mse):
     plt.plot(epochs, mse, label="Loss")
     plt.legend()
     plt.ylim([mse.min()*0.95, mse.max()*1.03])
-    plt.show
-
+    plt.show()
 print("Defined the plot_the_loss_curve function.")
 
 
